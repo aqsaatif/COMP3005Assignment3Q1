@@ -2,7 +2,6 @@ import java.sql.*;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-
 public class StudentApp {
 
     // Database connection parameters
