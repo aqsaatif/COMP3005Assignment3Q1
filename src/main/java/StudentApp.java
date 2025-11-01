@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class StudentApp {
 
     // Database connection parameters
-    private static final String URL = "jdbc:postgresql://localhost:5432/Assignment 3";
+    private static final String URL = "jdbc:postgresql://localhost:5432/database";
     private static final String USER = "username";
     private static final String PASSWORD = "password";
 
