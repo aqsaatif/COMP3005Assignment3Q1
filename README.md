@@ -42,3 +42,6 @@ Before compiling and running the code please remember to update the following li
 Replace database, username, and password with your actual database name, username, and password.
 
 You will now be able to run the code.
+
+
+Link to Documentation Video: https://1drv.ms/v/c/671b7aa3b3cef99e/EdZ3ri9fzs5Mo9jqloF1Ia0BiV8QdYV1qHmrRwUDtRdaog?e=Z7hZcO 
