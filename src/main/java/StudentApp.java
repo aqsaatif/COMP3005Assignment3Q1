@@ -48,7 +48,7 @@ public class StudentApp {
             pstmt.setDate(4, Date.valueOf(enrollmentDate));
 
             int rows = pstmt.executeUpdate();
-            if (rows > 0) System.out.println("✅ Student added successfully!");
+            if (rows > 0) System.out.println("Student added successfully!");
         } catch (SQLException e) {
             System.out.println("Error adding student: " + e.getMessage());
         }
@@ -65,7 +65,7 @@ public class StudentApp {
             pstmt.setInt(2, studentId);
 
             int rows = pstmt.executeUpdate();
-            if (rows > 0) System.out.println("✅ Student email updated successfully!");
+            if (rows > 0) System.out.println("Student email updated successfully!");
             else System.out.println("⚠️ Student ID not found.");
         } catch (SQLException e) {
             System.out.println("Error updating email: " + e.getMessage());
@@ -81,7 +81,7 @@ public class StudentApp {
             //Set the student to be deleted using their id
             pstmt.setInt(1, studentId);
             int rows = pstmt.executeUpdate();
-            if (rows > 0) System.out.println("🗑️ Student deleted successfully!");
+            if (rows > 0) System.out.println("Student deleted successfully!");
             else System.out.println("⚠️ Student ID not found.");
         } catch (SQLException e) {
             System.out.println("Error deleting student: " + e.getMessage());
