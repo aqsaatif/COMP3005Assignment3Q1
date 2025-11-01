@@ -6,8 +6,8 @@ public class StudentApp {
 
     // Database connection parameters
     private static final String URL = "jdbc:postgresql://localhost:5432/Assignment 3";
-    private static final String USER = "postgres";
-    private static final String PASSWORD = "Ottawa*s8072731687";
+    private static final String USER = "username";
+    private static final String PASSWORD = "password";
 
     // Set up the connection to PostgreSQL database
     private Connection connect() throws SQLException {
